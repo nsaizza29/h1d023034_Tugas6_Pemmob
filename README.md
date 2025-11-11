@@ -1,17 +1,9 @@
-# h1d023034_tugas6
+# Tugas 6 Praktikum Mobile Pertemuan 8
+- Nama   : Nisa Izzatul Ummah
+- NIM    : H1D023034
+- Shift  : D
 
-A new Flutter project.
+# Hasil Screenshot
+<img width="1080" height="2400" alt="Screenshot_1762842767" src="https://github.com/user-attachments/assets/59cacf3a-ef17-4af2-a124-ac5ce5743837" /> <img width="1080" height="2400" alt="Screenshot_1762842868" src="https://github.com/user-attachments/assets/752506a5-57be-4843-be15-3c19943a21c0" />
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# h1d023034_Tugas6_Pemmob
