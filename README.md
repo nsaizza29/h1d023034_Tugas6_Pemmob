@@ -23,7 +23,7 @@ Semua input dikontrol menggunakan TextEditingController dan komponen DropdownBut
 Ketika tombol “TAMPILKAN DATA” ditekan, proses validasi dijalankan.
 Jika data valid, maka dilakukan navigasi ke halaman TampilData menggunakan Navigator.push() berikut:
 
-<pre> ```dart Navigator.of(context).push(
+<pre> Navigator.of(context).push(
   MaterialPageRoute(
     builder: (context) => TampilData(
       nama: _namaController.text,
@@ -31,14 +31,14 @@ Jika data valid, maka dilakukan navigasi ke halaman TampilData menggunakan Navig
       tahunLahir: _selectedTahun!,
     ),
   ),
-);``` </pre>
+); </pre>
 
 Pada baris ini, data dikirim dari form menuju halaman tampilan melalui parameter konstruktor (nama, nim, tahunLahir).
 
 ## 3. Menerima dan Menampilkan Data
 Halaman TampilData menerima data tersebut melalui konstruktor:
 
-<pre> ```dartclass TampilData extends StatelessWidget {
+<pre> class TampilData extends StatelessWidget {
   final String nama;
   final String nim;
   final int tahunLahir;
@@ -48,16 +48,16 @@ Halaman TampilData menerima data tersebut melalui konstruktor:
     required this.nim,
     required this.tahunLahir,
   });
-}``` </pre>
+} </pre>
 
 Data kemudian digunakan untuk ditampilkan kembali ke pengguna dan menghitung umur menggunakan:
 
-<pre> ```dartint get umur => DateTime.now().year - tahunLahir;``` </pre>
+<pre> int get umur => DateTime.now().year - tahunLahir; </pre>
 
 ## 4. Kembali ke Halaman Form
 Saat tombol “KEMBALI KE FORM” ditekan, halaman TampilData ditutup menggunakan:
 
-<pre> ```dartNavigator.of(context).pop();``` </pre>
+<pre> Navigator.of(context).pop(); </pre>
 
 Sehingga pengguna kembali ke halaman input form tanpa kehilangan data sebelumnya.
 
