@@ -23,7 +23,7 @@ Semua input dikontrol menggunakan TextEditingController dan komponen DropdownBut
 Ketika tombol “TAMPILKAN DATA” ditekan, proses validasi dijalankan.
 Jika data valid, maka dilakukan navigasi ke halaman TampilData menggunakan Navigator.push() berikut:
 
-<pre> ```dartNavigator.of(context).push(
+<pre> ```dart Navigator.of(context).push(
   MaterialPageRoute(
     builder: (context) => TampilData(
       nama: _namaController.text,
